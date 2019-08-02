@@ -1,6 +1,4 @@
 USE M_SStop;
-INSERT INTO EstilosMusicais	(Nome)
-	   VALUES				('Rock');
 
 INSERT INTO Artistas (Nome)
 	   VALUES		 ('AC/DC');
@@ -17,5 +15,6 @@ INSERT INTO Artistas (Nome)
 SELECT *
 	FROM Artistas;
 
-
-INSERT INTO
+UPDATE Artistas
+	SET Nome = 'Técnico em Desenvolvimento de Sistemas'
+	WHERE IdCurso = 1;
