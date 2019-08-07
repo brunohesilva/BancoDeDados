@@ -14,7 +14,9 @@ select * from Eventos order by Titulo asc;
 insert into Eventos(Titulo, Descricao, DataEvento, Localizacao, IdCategoria)
 values ('Meetup'
 	    ,'BD Relacionais'
-		,'2019-08-07T18:30:00:000', 'Alameda Barão de Limeira, 539'
+		,'2019-08-07T18:30:00', 'Alameda Barão de Limeira, 539'
 		,2);
 
+Insert into Presencas (IdEvento,IdUsuario) values (1,2)
 
+select * from Presencas;
